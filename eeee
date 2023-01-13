@@ -1,0 +1,18 @@
+zombie_validation()
+{
+
+	  if( ( self.barriciade_enter ) )
+	  {
+	     return false;
+	  }
+	  if ( (self.completed_emerging_into_playable_area ) )
+	  {
+	     return false ;
+	  }
+	  if( ( self.is_leaping ) )
+	  {
+	     return false;
+	  }
+	  
+	  return true;
+ }
